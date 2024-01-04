@@ -1,5 +1,7 @@
 # Final Capstone
 ​
-This directory contains all of the starter projects for the final capstone.
-​
-Each project contains instructions that provides information about the starting code and explains how to get started with the final capstone project.
+This is a capstone project completed by a team and me. We used Postgres to create a database, IntelliJ to code back-end, Visual Studio Code to create a front-end user friendly UI, and Geoapify API to allow users to access a map and get a travel route to a specific landmark or landmarks. For the purposes of the project we used landmarks in the city Cincinatti, Ohio. This project was completed in 7 days, usually in 7 days as our final capstone project to complete Tech Elevator's broad but shallow full-stuck program in 16 weeks. Given more time we would have allowed users to suggest landmarks to be approved by admins, add comments, leave a thumbs up or down. 
+
+More specifically we used Postgres and IntelliJ to create a database that would intake new 'landmarks' added by an Admin when logged in, accessing admin rights. The landmark added then would create a unique ID and be added to the server. We gave access to users to be able to create an itinerary that would also be stored connecting to each unique userID. We built a user-friendly interface using Visual Studio Code using the Vue framework and bootstrap to apply some nice visual touches. 
+
+Mostly for this project I wanted to work on front-end and use VSC to learn more about it as it appealed to me. I worked in IntelliJ to get a service operating to allow an admin to also upload a photo with each landmark added but alas time was not sufficient. I learned bootstrap during this project, provided the graphics we used that I made during lunch and set the visual theme overall, and used VSC and Vue to link all the services together creating components, using routers, global headers and global footers. 
