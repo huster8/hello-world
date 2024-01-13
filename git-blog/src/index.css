@@ -14,7 +14,7 @@
     align-items: center;
     max-width: 600px;
     margin: 0 auto;
-    border-bottom: 1px solid #f2f2f2;
+    border-bottom: 1px solid #851d3c;
   }
   .navbar h1 {
     color: #f1356d;
@@ -34,4 +34,17 @@
     max-width: 600px;
     margin: 40px auto;
     padding: 20px;
+  }
+
+  .blog-preview {
+    padding: 10px 16px;
+    margin: 20px 0;
+  }
+
+  .blog-preview:hover {
+    border-bottom: 1px solid #851d3c;
+  }
+
+  .blog-preview h2:hover {
+    color: #f1356d
   }
