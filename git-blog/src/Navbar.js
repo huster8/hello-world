@@ -4,11 +4,7 @@ const Navbar = () => {
             <h1>coding portfolio</h1>
             <div className="links">
                 <a href="/">home</a>
-                <a href="/create" style={{
-                    color: "white",
-                    backgroundColor: "#f1356d",
-                    borderRadius: "8px"
-                }}>new project</a>
+                <a href="/create">new project</a>
             </div>
         </nav>
     );
