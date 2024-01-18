@@ -1,4 +1,4 @@
-const BlogList = ({ blogs, title, handleDelete }) => {
+const BlogList = ({ blogs, title }) => {
     
     
 
@@ -9,14 +9,7 @@ const BlogList = ({ blogs, title, handleDelete }) => {
                 <div className="blog-preview" key={blog.id}>
                     <h3>{ blog.title }</h3>
                     <p>developer: { blog.authors }</p>
-                    <button onClick={() => handleDelete(blog.id)}
-                                    style={{
-                                        color: "white",
-                                        backgroundColor: "#f10b91",
-                                        borderRadius: "8px",
-                                        hover: '#FFB721'
-                                    }}
-                    >delete</button>
+                    
                 </div>
             ))}
         </div>
