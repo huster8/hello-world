@@ -1,60 +1,118 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
   
-  /* base styles */
-  * {
-    margin: 0;
-    font-family: "Quicksand";
-    color: #feeeff;
-    background-color: #22192A;
-  }
-  
-  .navbar {
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    max-width: 600px;
-    margin: 0 auto;
-    border-bottom: 1px solid #f10b91;
-  }
-  .navbar h1 {
-    color: #8F3A76;
-  }
-  .navbar .links {
-    margin-left: auto;
-  }
-  .navbar a {
-    margin-left: 16px;
-    text-decoration: none;
-    padding: 6px;
-  }
-  .navbar a:hover {
-    color: #FFB721;
-  }
-  .content {
-    max-width: 600px;
-    margin: 40px auto;
-    padding: 20px;
-  }
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #feeeff;
+  background-color: #22192A;
+}
 
-  .blog-preview {
-    padding: 10px 16px;
-    margin: 20px 0;
-    border-bottom: 1px solid transparent;
-  }
+h2 {
+  color: #F14E7C;
+}
 
-  .blog-preview:hover {
-    border-bottom: 1px solid #FFB721;
-  }
+h3 {
+  color: #ED524A;
+}
+
+/* navbar */
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f10b91;
+}
+.navbar h1 {
+  color: #8F3A76;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #FFB721;
+}
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* project preview */
+
+.project-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid transparent;
+}
+
+.project-preview:hover {
+  border-bottom: 1px solid #FFB721;
+}
 
 
-  .blog-preview h3:hover {
-    color: #FFB721;
-  }
+.project-preview h3:hover {
+  color: #FFB721;
+}
 
-  h2 {
-    color: #F14E7C;
-  }
+.project-preview a {
+  text-decoration: none;
+}
 
-  h3 {
-    color: #ED524A;
-  }
+/* project details */
+
+.project-details h2 {
+  margin-bottom: 10px;
+}
+
+.project-details div {
+  margin: 20px 0;
+}
+
+.project-details button {
+  background: #f10b91;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* create new blog */
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  display: block;
+}
+
+.create button {
+  background: #FFB721;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
