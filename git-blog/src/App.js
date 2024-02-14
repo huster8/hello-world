@@ -3,6 +3,7 @@ import Home from './Home';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Create from './Create';
 import ProjectDetails from './ProjectDetails';
+import NotFound from './NotFound';
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
             </Route>
             <Route path="/projects/:id">
               <ProjectDetails />
+            </Route>
+            <Route path="*">
+              <NotFound />
             </Route>
           </Switch>
         </div>
