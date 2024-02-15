@@ -1,13 +1,14 @@
 import { useParams } from "react-router-dom";
 import useFetch from "./useFetch";
 import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
+import ViewImage from './ViewImage';
 
 const ProjectDetails = () => {
     const { id } = useParams()
     const { data: project, error, isPending } = useFetch('http://localhost:8000/projects/' + id);
     const history = useHistory();
 
-    const handleClick= () =>{
+    const handleClick = () => {
         fetch('http://localhost:8000/projects/' + project.id, {
             method: 'DELETE'
         }).then(() => {
@@ -24,6 +25,7 @@ const ProjectDetails = () => {
                     <h2>{ project.title }</h2>
                     <h3>developers: { project.authors }</h3>
                     <div>{ project.body }</div>
+                    <ViewImage />
                     <button onClick={handleClick}>delete</button>
                 </article>
             )}
