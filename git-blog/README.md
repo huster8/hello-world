@@ -1,10 +1,18 @@
-# Getting Started with Create React App
+# Portfolio Page to Upload Coding Projects
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App] for learning purposes. 
+
+## To Lists
+
+- [ ] Add an option to upload images for new coding projects
+- [ ] Add a drop-down option to preview projects using images
+- [ ] Add login option to ensure only an admin can add/remove new projects
+- [ ] Use Tailwind for learning purposes to make a more aesthetic look 
+- [ ] Move database to back=end server for practice purposes
 
 ## Available Scripts
 
-In the project directory, you can run:
+Below are available scripts that can be run in the project directory (default information to any new React App): 
 
 ### `npm start`
 
